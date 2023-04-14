@@ -9,4 +9,7 @@
 a = int (input("Введите число S: "))
 b = int (a / 6 *4)
 c = int (b / 4)
-print (c , b , c)
+if  a == c + b + c :
+  print (c , b , c)
+else :
+  print("Введите другое число ")
